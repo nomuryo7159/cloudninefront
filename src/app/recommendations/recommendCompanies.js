@@ -9,7 +9,7 @@ const recommendCompanies = async () => {
     })
     console.log(body_msg);
 
-    const res = await fetch('https://tech0-gen-8-step3-app-py-8.azurewebsites.net'+`/recommend/user`, {
+    const res = await fetch(`https://tech0-gen-8-step3-app-py-8.azurewebsites.net/recommend/user`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: body_msg,
