@@ -33,7 +33,7 @@ const registerUser = async (formData) => {
     })
     console.log(body_msg);
 
-    const res = await fetch(process.env.API_ENDPOINT+`/register/user`, {
+    const res = await fetch('https://tech0-gen-8-step3-app-py-8.azurewebsites.net'+`/register/user`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: body_msg,

@@ -3,7 +3,7 @@ import { revalidatePath } from 'next/cache';
 
 const companiesList = async () => {
 
-    const res = await fetch(process.env.API_ENDPOINT+`/companies`, {
+    const res = await fetch('https://tech0-gen-8-step3-app-py-8.azurewebsites.net'+`/companies`, {
         method: 'GET'
     });
     const data = await res.json(); // ここでawaitすることでJSONオブジェクトを取得
