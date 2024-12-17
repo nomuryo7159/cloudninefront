@@ -18,7 +18,7 @@ const LandingPage = () => {
           <a href="#faq-section" className="text-lg text-gray-700">FAQ</a>
           <a href="#company-section" className="text-lg text-gray-700">運営企業</a>
         </nav>
-        <a href="http://localhost:3000/register" className="bg-teal-700 text-white px-4 py-2 rounded-lg">さっそく無料登録</a>
+        <a href="https://tech0-gen-8-step3-app-node-8.azurewebsites.net/register" className="bg-teal-700 text-white px-4 py-2 rounded-lg">さっそく無料登録</a>
       </header>
 
       <main className="px-8 py-16">
